@@ -1,4 +1,4 @@
-package latihan_PBO.tugas_1;
+package latihan_PBO.latihan_4;
 
 /**
  * Class BangunDatar
@@ -47,47 +47,4 @@ public class BangunDatar {
     public double getDiagonal1() { return diagonal1; }
     public double getDiagonal2() { return diagonal2; }
 
-    // METHOD LUAS 
-
-    // Persegi
-    public double hitungLuasPersegi() {
-        return sisi * sisi;
-    }
-
-    // Persegi Panjang
-    public double hitungLuasPersegiPanjang() {
-        return panjang * lebar;
-    }
-
-    // Segitiga
-    public double hitungLuasSegitiga() {
-        return 0.5 * alas * tinggi;
-    }
-
-    // Belah Ketupat
-    public double hitungLuasBelahKetupat() {
-        return 0.5 * diagonal1 * diagonal2;
-    }
-
-    // METHOD KELILING
-
-    // Keliling Persegi
-    public double hitungKelilingPersegi() {
-        return 4 * sisi;
-    }
-
-    // Keliling Persegi Panjang
-    public double hitungKelilingPersegiPanjang() {
-        return 2 * (panjang + lebar);
-    }
-
-    // Keliling Segitiga
-    public double hitungKelilingSegitiga() {
-    return sisiA + sisiB + sisiC;
-}
-
-    // Keliling Belah Ketupat
-    public double hitungKelilingBelahKetupat() {
-        return 4 * sisi;
-    }
 }
