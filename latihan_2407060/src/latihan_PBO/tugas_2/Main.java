@@ -1,4 +1,4 @@
-package latihan_PBO.tugas_1;
+package latihan_PBO.tugas_2;
 
 import java.util.Scanner;
 
