@@ -2,8 +2,8 @@ package latihan_PBO.tugas_4;
 
 public class Segitiga extends BangunDatar {
 
-    public Segitiga(double alas, double tinggi) {
-        super(alas, tinggi);
+    public Segitiga(double varA, double varB) {
+        super(varA, varB);
     }
 
     @Override

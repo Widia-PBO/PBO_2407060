@@ -11,7 +11,6 @@ public class BangunDatar {
 
     public BangunDatar(double varA) {
         this.varA = varA;
-        this.varB = 0;
     }
 
     public double getVarA() { return varA; }

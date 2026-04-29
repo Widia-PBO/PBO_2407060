@@ -2,8 +2,8 @@ package latihan_PBO.tugas_4;
 
 public class PersegiPanjang extends BangunDatar {
 
-    public PersegiPanjang(double panjang, double lebar) {
-        super(panjang, lebar);
+    public PersegiPanjang(double varA, double varB) {
+        super(varA, varB);
     }
 
     @Override
